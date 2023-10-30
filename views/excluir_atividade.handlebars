@@ -1,0 +1,14 @@
+<h1>Excluir uma Atividade</h1>
+<br>
+<form action="/excluir_atividade" method="post">     
+    <label for="nome_atividade">Digite o nome da atividade:</label><br>
+    <input type="text" name="nome_atividade"><br>
+    <br><br>
+    <button type="submit">Enviar</button>
+</form>
+<br>
+{{#if msg}}
+    <p>{{msg}}</p>
+{{else}}
+    <p>{{msg2}}</p>
+{{/if}} 

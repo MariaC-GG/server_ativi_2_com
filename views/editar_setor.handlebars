@@ -1,0 +1,20 @@
+<h1>Editar um Setor</h1>
+<br>
+<form action="/editar_setor" method="post">     
+    <label for="nome_setor">Digite o nome atual do setor:</label><br>
+    <input type="text" name="nome_setor"><br>
+    <label for="num_setor">Digite o número do setor:</label><br>
+    <input type="text" name="num_setor"><br>
+    <label for="gerenteId">Digite o código do Gerente:</label><br>
+    <input type="text" name="gerenteId"><br>
+    <label for="novo_nome_setor">Digite o novo nome do setor:</label><br>
+    <input type="text" name="novo_nome_setor"><br>
+    <br><br>
+    <button type="submit">Enviar</button>
+</form>
+<br>
+{{#if msg}}
+    <p>{{msg}}</p>
+{{else}}
+    <p>{{msg2}}</p>
+{{/if}} 

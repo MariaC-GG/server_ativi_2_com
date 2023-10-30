@@ -1,0 +1,36 @@
+body{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: large;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid white;
+}
+th{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0px 4px;
+}
+td{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0px 4px;
+} 

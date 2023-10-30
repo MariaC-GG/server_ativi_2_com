@@ -1,0 +1,13 @@
+<form action="/cadastrar_atividade" method="post">
+    <label for="num_atividade">Digite o número da Atividade:</label><br>
+    <input type="text" name="num_atividade"><br>
+    <label for="nome_atividade">Digite o nome da Atividade:</label><br>
+    <input type="text" name="nome_atividade"><br>
+    <label for="setorId">Digite o código do setor:</label><br>
+    <input type="text" name="setorId"><br>
+    <br><br>
+    <button type="submit">Enviar</button>
+</form>
+{{#if msg}}
+    <p>{{msg}}</p>
+{{/if}} 
